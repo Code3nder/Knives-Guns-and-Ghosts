@@ -4,6 +4,9 @@ onready var btn_Singleplayer = $VBoxContainer/HBoxContainer/VBoxContainer/btn_Si
 onready var btn_Multiplayer = $VBoxContainer/HBoxContainer/VBoxContainer/btn_Multiplayer
 onready var btn_Options = $VBoxContainer/HBoxContainer/VBoxContainer/btn_Options
 onready var btn_Exit = $VBoxContainer/HBoxContainer/VBoxContainer/btn_Exit
+onready var timer = $Timer
+
+var scene_to_change_to
 
 func _ready():
 	btn_Singleplayer.connect("pressed", self, "Singleplayer")
@@ -15,10 +18,15 @@ func _ready():
 	btn_Multiplayer.connect("mouse_entered", self, "blip")
 	btn_Options.connect("mouse_entered", self, "blip")
 	btn_Exit.connect("mouse_entered", self, "blip")
+	
+	
 
 func Singleplayer():
 	print("btn_Singleplayer pressed")
 	slide()
+	scene_to_change_to = "res://Assets/Scenes/Roots/Singleplayer.tscn"
+	timer.start()
+	timer.connect("timeout", self, "change_scene")
 
 func Multiplayer():
 	print("btn_Multiplayer pressed")
@@ -32,6 +40,9 @@ func Exit():
 	print("btn_Exit pressed")
 	slide()
 	get_tree().quit()
+
+func change_scene():
+	get_tree().change_scene(scene_to_change_to)
 
 func blip():
 	$aud_MenuBlip.play()
