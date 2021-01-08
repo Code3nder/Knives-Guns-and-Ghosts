@@ -24,7 +24,7 @@ func _ready():
 func Singleplayer():
 	print("btn_Singleplayer pressed")
 	slide()
-	scene_to_change_to = "res://Assets/Scenes/Roots/Singleplayer.tscn"
+	scene_to_change_to = load("res://Assets/Scenes/Roots/Singleplayer.tscn")
 	timer.start()
 	timer.connect("timeout", self, "change_scene")
 
@@ -42,7 +42,7 @@ func Exit():
 	get_tree().quit()
 
 func change_scene():
-	get_tree().change_scene(scene_to_change_to)
+	get_tree().change_scene_to(scene_to_change_to)
 
 func blip():
 	$aud_MenuBlip.play()
