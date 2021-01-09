@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/KGG Track.wav-a6ab8a185cd253b16eb8c02f75a235ba.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/KGG Track.wav"
+dest_files=[ "res://.import/KGG Track.wav-a6ab8a185cd253b16eb8c02f75a235ba.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

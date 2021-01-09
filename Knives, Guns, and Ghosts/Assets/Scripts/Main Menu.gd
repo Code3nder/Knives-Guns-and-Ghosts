@@ -14,38 +14,38 @@ func _ready():
 	btn_Options.connect("pressed", self, "Options")
 	btn_Exit.connect("pressed", self, "Exit")
 	
-	btn_Singleplayer.connect("mouse_entered", self, "blip")
-	btn_Multiplayer.connect("mouse_entered", self, "blip")
-	btn_Options.connect("mouse_entered", self, "blip")
-	btn_Exit.connect("mouse_entered", self, "blip")
+	btn_Singleplayer.connect("mouse_entered", self, "hover")
+	btn_Multiplayer.connect("mouse_entered", self, "hover")
+	btn_Options.connect("mouse_entered", self, "hover")
+	btn_Exit.connect("mouse_entered", self, "hover")
 	
-	
+	$MenuMusic.play()
 
 func Singleplayer():
 	print("btn_Singleplayer pressed")
-	slide()
+	clickSFX()
 	scene_to_change_to = load("res://Assets/Scenes/Roots/Singleplayer.tscn")
 	timer.start()
 	timer.connect("timeout", self, "change_scene")
 
 func Multiplayer():
 	print("btn_Multiplayer pressed")
-	slide()
+	clickSFX()
 
 func Options():
 	print("btn_Options pressed")
-	slide()
+	clickSFX()
 
 func Exit():
 	print("btn_Exit pressed")
-	slide()
+	clickSFX()
 	get_tree().quit()
 
 func change_scene():
 	get_tree().change_scene_to(scene_to_change_to)
 
-func blip():
-	$aud_MenuBlip.play()
+func hover():
+	$aud_MenuHover.play()
 
-func slide():
-	$aud_MenuSlide.play()
+func clickSFX():
+	$aud_MenuClick.play()
