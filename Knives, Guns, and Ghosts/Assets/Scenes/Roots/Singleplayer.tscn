@@ -1,13 +1,9 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
 [ext_resource path="res://Assets/Scripts/Singleplayer.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Scripts/Lights.gd" type="Script" id=2]
 
 [node name="Singleplayer" type="Node"]
 script = ExtResource( 1 )
 
 [node name="Timer" type="Timer" parent="."]
 one_shot = true
-
-[node name="Lights" type="Node" parent="."]
-script = ExtResource( 2 )

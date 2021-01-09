@@ -6,6 +6,7 @@ onready var btn_Options = $VBoxContainer/HBoxContainer/VBoxContainer/btn_Options
 onready var btn_Exit = $VBoxContainer/HBoxContainer/VBoxContainer/btn_Exit
 onready var timer = $Timer
 
+var hoverlock = false
 var scene_to_change_to
 
 func _ready():
@@ -45,7 +46,9 @@ func change_scene():
 	get_tree().change_scene_to(scene_to_change_to)
 
 func hover():
-	$aud_MenuHover.play()
+	if !hoverlock:
+		$aud_MenuHover.play()
 
 func clickSFX():
+	hoverlock = true
 	$aud_MenuClick.play()
