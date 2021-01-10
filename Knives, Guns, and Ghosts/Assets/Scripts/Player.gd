@@ -3,6 +3,7 @@ extends KinematicBody2D
 const speed = 100
 
 var movement_vector = Vector2(0, 0)
+var flashlight = false
 
 onready var animation = $AnimatedSprite
 
@@ -19,6 +20,10 @@ func _input(event):
 	
 	if Input.is_action_pressed("move_right"):
 		movement_vector.x += 1
+	
+	if Input.is_action_just_pressed("Flashlight"):
+		flashlight = !flashlight
+		$AnimatedSprite/Flashlight.visible = flashlight
 	
 	if Input.is_action_just_pressed("print"):
 		print(position)

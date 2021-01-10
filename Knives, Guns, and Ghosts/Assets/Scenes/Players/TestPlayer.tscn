@@ -1,7 +1,8 @@
-[gd_scene load_steps=33 format=2]
+[gd_scene load_steps=34 format=2]
 
 [ext_resource path="res://Assets/Scripts/Player.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Sprites/Walking Animation Whole.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Sprites/Spritesheets/Walking Animation Whole.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Scenes/Instances/Flashlight.tscn" type="PackedScene" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 15.0
@@ -148,14 +149,14 @@ region = Rect2( 1536, 768, 256, 256 )
 
 [sub_resource type="SpriteFrames" id=30]
 animations = [ {
-"frames": [ SubResource( 2 ) ],
-"loop": true,
-"name": "Idle",
-"speed": 5.0
-}, {
 "frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ) ],
 "loop": true,
 "name": "Walking",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 15 ) ],
+"loop": true,
+"name": "Idle",
 "speed": 5.0
 } ]
 
@@ -174,3 +175,9 @@ frames = SubResource( 30 )
 animation = "Idle"
 speed_scale = 6.0
 playing = true
+
+[node name="Flashlight" parent="AnimatedSprite" instance=ExtResource( 3 )]
+position = Vector2( 11.1118, -28.5732 )
+scale = Vector2( 4, 4 )
+
+[node name="FlashlightPlaceholder" type="Node2D" parent="."]

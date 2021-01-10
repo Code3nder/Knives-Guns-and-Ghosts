@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/periphiral light.png-ad213dbf4e9d65e7cf869e8152d6a0d0.stex"
+path="res://.import/Interiors_free_32x32.png-426ed0ed94170a2ed4d8d021f8b2082c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/periphiral light.png"
-dest_files=[ "res://.import/periphiral light.png-ad213dbf4e9d65e7cf869e8152d6a0d0.stex" ]
+source_file="res://Assets/Sprites/Tilesets/Interiors_free_32x32.png"
+dest_files=[ "res://.import/Interiors_free_32x32.png-426ed0ed94170a2ed4d8d021f8b2082c.stex" ]
 
 [params]
 

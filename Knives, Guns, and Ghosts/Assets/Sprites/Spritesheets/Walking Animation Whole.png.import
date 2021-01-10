@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Interiors_free_32x32.png-a91c7402bc47ef8a49ee1a065d1b5528.stex"
+path="res://.import/Walking Animation Whole.png-589c9d664114c5acd11537445d6f50a8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Interiors_free_32x32.png"
-dest_files=[ "res://.import/Interiors_free_32x32.png-a91c7402bc47ef8a49ee1a065d1b5528.stex" ]
+source_file="res://Assets/Sprites/Spritesheets/Walking Animation Whole.png"
+dest_files=[ "res://.import/Walking Animation Whole.png-589c9d664114c5acd11537445d6f50a8.stex" ]
 
 [params]
 

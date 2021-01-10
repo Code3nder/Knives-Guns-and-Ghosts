@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Walking Animation Whole.png-4582463b25fa3975b83faec7edfbe914.stex"
+path="res://.import/Flashlight.png-dd2eb082259d2daa543b80c48339786c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Walking Animation Whole.png"
-dest_files=[ "res://.import/Walking Animation Whole.png-4582463b25fa3975b83faec7edfbe914.stex" ]
+source_file="res://Assets/Sprites/Lights/Flashlight.png"
+dest_files=[ "res://.import/Flashlight.png-dd2eb082259d2daa543b80c48339786c.stex" ]
 
 [params]
 
