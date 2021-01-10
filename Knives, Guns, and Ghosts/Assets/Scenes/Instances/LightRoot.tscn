@@ -2,5 +2,6 @@
 
 [ext_resource path="res://Assets/Scripts/Lights.gd" type="Script" id=1]
 
-[node name="Lights" type="Node"]
+[node name="Lights" type="Node2D"]
+z_index = 10
 script = ExtResource( 1 )

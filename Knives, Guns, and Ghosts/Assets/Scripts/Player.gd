@@ -5,7 +5,7 @@ const speed = 100
 var movement_vector = Vector2(0, 0)
 var flashlight = false
 
-onready var animation = $AnimatedSprite
+onready var body = $Body
 
 func _input(event):
 	movement_vector = Vector2(0, 0)
@@ -31,14 +31,14 @@ func _input(event):
 	movement_vector = movement_vector.normalized()
 	
 	if movement_vector.length() != 0:
-		animation.play("Walking")
-		animation.rotation = movement_vector.angle() + PI/2
+		body.anim_walking()
+		body.rotation = movement_vector.angle() + PI/2
 	elif event is InputEventMouse:
-		animation.play("Idle")
-		animation.look_at(get_global_mouse_position())
-		animation.rotate(PI/2)
+		body.anim_idle()
+		body.look_at(get_global_mouse_position())
+		body.rotate(PI/2)
 	else:
-		animation.play("Idle")
+		body.anim_idle()
 	
 	movement_vector *= speed
 
