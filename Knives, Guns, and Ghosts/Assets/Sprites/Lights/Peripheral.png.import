@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/peripheral.png-0205cbcedbd9a5d49cb41ac5900d1353.stex"
+path="res://.import/Peripheral.png-6c0a526e725c4e5f65185509e248a8bb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Lights/peripheral.png"
-dest_files=[ "res://.import/peripheral.png-0205cbcedbd9a5d49cb41ac5900d1353.stex" ]
+source_file="res://Assets/Sprites/Lights/Peripheral.png"
+dest_files=[ "res://.import/Peripheral.png-6c0a526e725c4e5f65185509e248a8bb.stex" ]
 
 [params]
 
