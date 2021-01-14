@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HairWalking.png-62350e077290a291b4293cd09c9e2f38.stex"
+path="res://.import/WalkingHair.png-0d46ec66a96ef2f619bdb5ac9f765e06.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Spritesheets/Hair/HairWalking.png"
-dest_files=[ "res://.import/HairWalking.png-62350e077290a291b4293cd09c9e2f38.stex" ]
+source_file="res://Assets/Sprites/Spritesheets/Hair/WalkingHair.png"
+dest_files=[ "res://.import/WalkingHair.png-0d46ec66a96ef2f619bdb5ac9f765e06.stex" ]
 
 [params]
 
