@@ -1,7 +1,7 @@
 extends Node
 
 const map = preload("res://Assets/Maps/TestMap.tscn")
-const player = preload("res://Assets/Scenes/Players/TestPlayer.tscn")
+const player = preload("res://Assets/Scenes/Players/Singleplayer.tscn")
 const lightroot = preload("res://Assets/Scenes/Instances/LightRoot.tscn")
 
 var playerInstance
