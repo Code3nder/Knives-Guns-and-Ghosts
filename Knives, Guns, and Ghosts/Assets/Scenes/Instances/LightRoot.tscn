@@ -5,3 +5,7 @@
 [node name="Lights" type="Node2D"]
 z_index = 10
 script = ExtResource( 1 )
+
+[node name="LightTimer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true

@@ -29,36 +29,439 @@ script = ExtResource( 2 )
 [node name="Shoes" type="AnimatedSprite" parent="Body"]
 frames = ExtResource( 4 )
 animation = "Walking"
+speed_scale = 5.0
+
+[node name="Shoes2" type="AnimatedSprite" parent="Body"]
+frames = ExtResource( 4 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Shoes3" type="AnimatedSprite" parent="Body"]
+frames = ExtResource( 4 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Shoes4" type="AnimatedSprite" parent="Body"]
+frames = ExtResource( 4 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Shoes5" type="AnimatedSprite" parent="Body"]
+frames = ExtResource( 4 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Shoes6" type="AnimatedSprite" parent="Body"]
+frames = ExtResource( 4 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Shoes7" type="AnimatedSprite" parent="Body"]
+frames = ExtResource( 4 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Shoes8" type="AnimatedSprite" parent="Body"]
+frames = ExtResource( 4 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Shoes9" type="AnimatedSprite" parent="Body"]
+frames = ExtResource( 4 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Shoes10" type="AnimatedSprite" parent="Body"]
+frames = ExtResource( 4 )
+animation = "Walking"
+speed_scale = 5.0
 
 [node name="Ankles" type="AnimatedSprite" parent="Body"]
 visible = false
 z_index = 1
 frames = ExtResource( 7 )
 animation = "Walking"
+speed_scale = 5.0
+
+[node name="Ankles2" type="AnimatedSprite" parent="Body"]
+visible = false
+z_index = 1
+frames = ExtResource( 7 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Ankles3" type="AnimatedSprite" parent="Body"]
+visible = false
+z_index = 1
+frames = ExtResource( 7 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Ankles4" type="AnimatedSprite" parent="Body"]
+visible = false
+z_index = 1
+frames = ExtResource( 7 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Ankles5" type="AnimatedSprite" parent="Body"]
+visible = false
+z_index = 1
+frames = ExtResource( 7 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Ankles6" type="AnimatedSprite" parent="Body"]
+visible = false
+z_index = 1
+frames = ExtResource( 7 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Ankles7" type="AnimatedSprite" parent="Body"]
+visible = false
+z_index = 1
+frames = ExtResource( 7 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Ankles8" type="AnimatedSprite" parent="Body"]
+visible = false
+z_index = 1
+frames = ExtResource( 7 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Ankles9" type="AnimatedSprite" parent="Body"]
+visible = false
+z_index = 1
+frames = ExtResource( 7 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Ankles10" type="AnimatedSprite" parent="Body"]
+visible = false
+z_index = 1
+frames = ExtResource( 7 )
+animation = "Walking"
+speed_scale = 5.0
 
 [node name="Pants" type="AnimatedSprite" parent="Body"]
 modulate = Color( 1, 0, 0, 1 )
 z_index = 2
 frames = ExtResource( 6 )
 animation = "Walking"
+speed_scale = 5.0
+
+[node name="Pants2" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 2
+frames = ExtResource( 6 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Pants3" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 2
+frames = ExtResource( 6 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Pants4" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 2
+frames = ExtResource( 6 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Pants5" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 2
+frames = ExtResource( 6 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Pants6" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 2
+frames = ExtResource( 6 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Pants7" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 2
+frames = ExtResource( 6 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Pants8" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 2
+frames = ExtResource( 6 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Pants9" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 2
+frames = ExtResource( 6 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Pants10" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 2
+frames = ExtResource( 6 )
+animation = "Walking"
+speed_scale = 5.0
 
 [node name="Hands" type="AnimatedSprite" parent="Body"]
 z_index = 3
 frames = ExtResource( 9 )
 animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hands2" type="AnimatedSprite" parent="Body"]
+z_index = 3
+frames = ExtResource( 9 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hands3" type="AnimatedSprite" parent="Body"]
+z_index = 3
+frames = ExtResource( 9 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hands4" type="AnimatedSprite" parent="Body"]
+z_index = 3
+frames = ExtResource( 9 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hands5" type="AnimatedSprite" parent="Body"]
+z_index = 3
+frames = ExtResource( 9 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hands6" type="AnimatedSprite" parent="Body"]
+z_index = 3
+frames = ExtResource( 9 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hands7" type="AnimatedSprite" parent="Body"]
+z_index = 3
+frames = ExtResource( 9 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hands8" type="AnimatedSprite" parent="Body"]
+z_index = 3
+frames = ExtResource( 9 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hands9" type="AnimatedSprite" parent="Body"]
+z_index = 3
+frames = ExtResource( 9 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hands10" type="AnimatedSprite" parent="Body"]
+z_index = 3
+frames = ExtResource( 9 )
+animation = "Walking"
+speed_scale = 5.0
 
 [node name="Hoodie" type="AnimatedSprite" parent="Body"]
 modulate = Color( 1, 0, 0, 1 )
 z_index = 4
 frames = ExtResource( 5 )
 animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hoodie2" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 4
+frames = ExtResource( 5 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hoodie3" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 4
+frames = ExtResource( 5 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hoodie4" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 4
+frames = ExtResource( 5 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hoodie5" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 4
+frames = ExtResource( 5 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hoodie6" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 4
+frames = ExtResource( 5 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hoodie7" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 4
+frames = ExtResource( 5 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hoodie8" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 4
+frames = ExtResource( 5 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hoodie9" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 4
+frames = ExtResource( 5 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hoodie10" type="AnimatedSprite" parent="Body"]
+modulate = Color( 1, 0, 0, 1 )
+z_index = 4
+frames = ExtResource( 5 )
+animation = "Walking"
+speed_scale = 5.0
 
 [node name="Head" type="AnimatedSprite" parent="Body"]
 z_index = 5
 frames = ExtResource( 3 )
 animation = "Walking"
+speed_scale = 5.0
+
+[node name="Head2" type="AnimatedSprite" parent="Body"]
+z_index = 5
+frames = ExtResource( 3 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Head3" type="AnimatedSprite" parent="Body"]
+z_index = 5
+frames = ExtResource( 3 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Head4" type="AnimatedSprite" parent="Body"]
+z_index = 5
+frames = ExtResource( 3 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Head5" type="AnimatedSprite" parent="Body"]
+z_index = 5
+frames = ExtResource( 3 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Head6" type="AnimatedSprite" parent="Body"]
+z_index = 5
+frames = ExtResource( 3 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Head7" type="AnimatedSprite" parent="Body"]
+z_index = 5
+frames = ExtResource( 3 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Head8" type="AnimatedSprite" parent="Body"]
+z_index = 5
+frames = ExtResource( 3 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Head9" type="AnimatedSprite" parent="Body"]
+z_index = 5
+frames = ExtResource( 3 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Head10" type="AnimatedSprite" parent="Body"]
+z_index = 5
+frames = ExtResource( 3 )
+animation = "Walking"
+speed_scale = 5.0
 
 [node name="Hair" type="AnimatedSprite" parent="Body"]
 z_index = 6
 frames = ExtResource( 8 )
 animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hair2" type="AnimatedSprite" parent="Body"]
+z_index = 6
+frames = ExtResource( 8 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hair3" type="AnimatedSprite" parent="Body"]
+z_index = 6
+frames = ExtResource( 8 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hair4" type="AnimatedSprite" parent="Body"]
+z_index = 6
+frames = ExtResource( 8 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hair5" type="AnimatedSprite" parent="Body"]
+z_index = 6
+frames = ExtResource( 8 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hair6" type="AnimatedSprite" parent="Body"]
+z_index = 6
+frames = ExtResource( 8 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hair7" type="AnimatedSprite" parent="Body"]
+z_index = 6
+frames = ExtResource( 8 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hair8" type="AnimatedSprite" parent="Body"]
+z_index = 6
+frames = ExtResource( 8 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hair9" type="AnimatedSprite" parent="Body"]
+z_index = 6
+frames = ExtResource( 8 )
+animation = "Walking"
+speed_scale = 5.0
+
+[node name="Hair10" type="AnimatedSprite" parent="Body"]
+z_index = 6
+frames = ExtResource( 8 )
+animation = "Walking"
+speed_scale = 5.0
