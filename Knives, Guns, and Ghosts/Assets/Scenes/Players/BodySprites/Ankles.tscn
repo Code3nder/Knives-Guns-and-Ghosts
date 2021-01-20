@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Sprites/Spritesheets/Spriteframes/AnklesSpriteframe.tres" type="SpriteFrames" id=1]
+
+[node name="Ankles" type="AnimatedSprite"]
+visible = false
+z_index = 1
+frames = ExtResource( 1 )
+animation = "Walking"
+speed_scale = 5.0

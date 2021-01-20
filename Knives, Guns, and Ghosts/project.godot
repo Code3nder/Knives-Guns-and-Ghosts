@@ -19,6 +19,10 @@ config/name="Knives, Guns, and Ghosts"
 run/main_scene="res://Assets/Scenes/Menus/Main Menu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Global="*res://Assets/Scripts/Global.gd"
+
 [input]
 
 move_up={

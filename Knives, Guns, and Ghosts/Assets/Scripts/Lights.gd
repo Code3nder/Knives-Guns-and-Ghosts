@@ -20,7 +20,7 @@ func _ready():
 func add_light_to_scene():
 	lightInstance = light.instance()
 	self.add_child(lightInstance)
-	lightInstance.set_position(Vector2(175, 305))
+	lightInstance.set_position(Vector2(176, 272))
 
 func add_flashlight_to_scene():
 	self.add_child(flashlight.instance())
